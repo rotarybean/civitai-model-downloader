@@ -5,7 +5,7 @@ A Python script for easy CivitAI model downloads using a CivitAI API key
 civitai_downloader is a python script for easy model downloads - it automatically places your model in the correct folder based upon the model type you select.  
 
 # Reason for script:
-While I'm away from my homelab (where my AI server resides) it's rather annoying and tedious to download a model to one machine then WinSCP or FTP the file to the AI server.  For that reason, I wrote this script so I can access the CLI from anywhere (via VPN) and download *directly* to the server. 
+While I'm away from my homelab (where my AI server resides) it's rather annoying and tedious to download a model to one machine then WinSCP or FTP the file to the AI server.  Using wget is. . . spotty at best.  For that reason, I wrote this script so I can access the CLI from anywhere (via VPN) and download *directly* to the server. 
 
 # Directions for one-time-Setup:
 1. Place the `civitai_downloader.py` file in your home directory.
